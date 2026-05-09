@@ -1,0 +1,18 @@
+/* Override to hide stray Framer grey decorative bars */
+/* Hide elements that use the specific grey used by Framer export */
+*[style*="background-color:#dbdbdb"]{display:none!important}
+
+/* Common Framer-generated classes for decorative bars */
+.framer-IVisZ .framer-1lnjpra,
+.framer-JXfY7 .framer-sf0z71,
+.framer-JXfY7 .framer-xjoe75,
+.framer-FRjNj .framer-16d66rs,
+.framer-FRjNj .framer-1uxalv9,
+.framer-FRjNj .framer-1pcfav7{display:none!important}
+
+/* If any bars are absolutely positioned and cause overflow, ensure they don't affect layout */
+*[style*="background-color:#dbdbdb"]{width:0;height:0;overflow:hidden}
+
+/* Center Framer lightbox/modal */
+.framer-lightbox-container{position:fixed!important;inset:0!important;display:flex!important;align-items:center!important;justify-content:center!important;z-index:2147483000!important}
+.framer-lightbox-container > *{margin:0!important;position:relative!important;transform:none!important;top:auto!important;left:auto!important}
