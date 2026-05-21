@@ -20,9 +20,9 @@ function enforceMultimedia() {
 function updateResumeImages() {
     // Exact mapping for each page container class
     const mapping = [
-        { cls: 'framer-1muv3pg', src: 'latest_resume/CV_cyt_2026_01.jpg' },
-        { cls: 'framer-nixoin',  src: 'latest_resume/CV_cyt_2026_02.jpg' },
-        { cls: 'framer-124nu4y', src: 'latest_resume/CV_cyt_2026_03.jpg' }
+        { cls: 'framer-1muv3pg', src: 'latest_resume/CV_cyt_2026_01.jpg?v=2' },
+        { cls: 'framer-nixoin',  src: 'latest_resume/CV_cyt_2026_02.jpg?v=2' },
+        { cls: 'framer-124nu4y', src: 'latest_resume/CV_cyt_2026_03.jpg?v=2' }
     ];
 
     mapping.forEach(m => {
